@@ -248,7 +248,7 @@ public class booleanHM {
         /*
         System.out.print("Введите целое число: ");
         int num=in.nextInt();
-        boolean dz=(9<num)&(num<100);
+        boolean dz=(num>9)&(num<100);
         int chetn=num%2;
         boolean chet1=chetn==0;
         System.out.println("Данное число является четным двузначным: "+(dz&chet1));
@@ -262,7 +262,7 @@ public class booleanHM {
         /*
         System.out.print("Введите целое число: ");
         int num=in.nextInt();
-        boolean dz=(99<num)&(num<1000);
+        boolean dz=(num>99)&(num<1000);
         int chetn=num%2;
         boolean chet1=chetn==1;
         System.out.println("Данное число является нечетным трехзначным: "+chet1);
